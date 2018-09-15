@@ -3,7 +3,6 @@
 from Bio import SeqIO, AlignIO, pairwise2
 from Bio.Seq import Seq
 from Bio.pairwise2 import format_alignment
-import numpy as np
 import pandas as pd
 import mysql.connector, os, sys
 

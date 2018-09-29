@@ -7,3 +7,7 @@ Python scripts for various needs.
    ```
    sudo ln -s <your/path/to/file/here.py> /usr/local/bin
    ```
+2. using [gphoto2](http://gphoto.org/) to capture images from command line eg.
+   ```
+   gphoto2 --capture-image-and-download --filename "%Y%m%d%H%M%S.jpg" -F 2 -I 10
+   ```

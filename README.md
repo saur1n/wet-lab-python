@@ -12,4 +12,4 @@ Python scripts for various needs.
    gphoto2 --capture-image-and-download --filename "%Y%m%d%H%M%S.jpg" -F 2 -I 10
    ```
 3. converting row number to alphabet in excel
-   =MID("ABCDEFGHIJKLMNOPQRSTUVWXYZ",<cell value>,1)
+   =MID("ABCDEFGHIJKLMNOPQRSTUVWXYZ",(cell value),1)

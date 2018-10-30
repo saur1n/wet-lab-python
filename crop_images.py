@@ -15,4 +15,4 @@ def crop(image_path, coords, saved_location):
     
 for file in os.listdir(sys.argv[1]):
     if file.endswith(".JPG"):
-        crop(sys.argv[1]+file, (0,0,5000,3400), sys.argv[1]+file)
+        crop(sys.argv[1]+file, (0,0,5000,3100), sys.argv[1]+file)

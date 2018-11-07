@@ -43,6 +43,6 @@ orf_data.to_csv('all_aligns.csv', sep=',')
 orf_data[orf_data.perc_match<90].to_csv('bad_aligns.csv', sep=',')
 with open('alignments.txt', 'w') as f:
     for item in alignments:
-        f.write("%s\n%s\n" % (item[0],item[1]))
+        f.write("%s\n%s\n\n" % (item[0],item[1][:-12]))
         
 cursor.close()
